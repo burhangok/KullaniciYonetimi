@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adını Giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/kullaniciSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/kullaniciAdi"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="232dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/girisButonu"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/kullaniciSifre"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="136dp"
+        android:text="GİRİŞ YAP" />
+</RelativeLayout>
